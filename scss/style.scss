@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0 15px;
+
+  .left-text {
+    align-self: center;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+  }
+
+  ul {
+    display: flex;
+    align-self: center;
+
+    li {
+      list-style: none;
+      padding: 50px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 500;
+    }
+  }
+
+  .logomark {
+    height: 72px;
+    padding: 10px;
+    align-self: center;
+  }
+}
+
+.headline {
+  background-color: #f4f5f7;
+  padding: 25px;
+  font-family: "Manrope", sans-serif;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+section {
+  background: url(/img/humaaans.png) no-repeat center center fixed;
+  background-size: 900px;
+  height: 100vh;
+  display: flex;
+  font-family: "Manrope", sans-serif;
+
+  .the-methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    .floaty-methods {
+      display: flex;
+      background-color: blue;
+      animation-name: floating;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 5px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .floaty-methods-1 {
+      display: flex;
+      background-color: red;
+      animation-name: floating;
+      animation-duration: 3.2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 125px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .floaty-methods-2 {
+      display: flex;
+      background-color: orange;
+      animation-name: floating;
+      animation-duration: 2.2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-bottom: 275px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .floaty-methods-3 {
+      display: flex;
+      background-color: #fbc31a;
+      animation-name: floating;
+      animation-duration: 2.8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-top: 130px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .floaty-methods-4 {
+      display: flex;
+      background-color: #4dc1b6;
+      animation-name: floating;
+      animation-duration: 2.4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-bottom: 430px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .floaty-methods-5 {
+      display: flex;
+      background-color: #45b852;
+      animation-name: floating;
+      animation-duration: 2.9s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-bottom: 40px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .floaty-methods-6 {
+      display: flex;
+      background-color: #4992ce;
+      animation-name: floating;
+      animation-duration: 3.2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      margin-bottom: 300px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .floaty-methods-7 {
+      display: flex;
+      background-color: #5669ac;
+      animation-name: floating;
+      animation-duration: 2.7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 30px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    @keyframes floating {
+      0% {
+        transform: translate(0, 0px);
+      }
+      50% {
+        transform: translate(0, 15px);
+      }
+      100% {
+        transform: translate(0, -0px);
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    background-size: 90%;
+  }
+}
